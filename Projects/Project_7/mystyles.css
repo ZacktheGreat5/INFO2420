@@ -112,7 +112,7 @@ nav a {
 section {
     width: 888px;
 	border: 3px solid;
-	background-image: url("/Images/2colback.jpg");
+	background-image: url("Images/2colback.jpg");
     background-repeat: repeat-y;
 
 }
