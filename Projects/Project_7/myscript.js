@@ -11,10 +11,10 @@ if (document.images) {
 
 
 		var imgArray = new Array(
-			'Image1Lg.jpg',
-			'Image2Lg.jpg',
-			'Image3Lg.jpg',
-			'Image4Lg.jpg'
+			'image1Lg.jpg',
+			'image2Lg.jpg',
+			'image3Lg.jpg',
+			'image4Lg.jpg'
 			
 
 		);
