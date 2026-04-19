@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html><!-- InstanceBegin template="/Templates/Rent-A-Pet.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="UTF-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Rent-A-Pet: Home</title>
+
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" href="mystyles.css">
+<link media="print" rel="stylesheet" href="print.css">
+<script type="text/javascript" src="myscript.js"></script>
+</head>
+
+<body onLoad="preloadImages()">
+	<div id="container">
+	
+		<header>
+			<div id="logo">
+				<a href="home.html" onMouseOver="document.images['logo'].src=logo2.src;"
+				onMouseOut="document.images['logo'].src=logo1.src;">
+
+				<img src="Images/logo1.png" width="133" height="126" 
+				name="logo" alt="logo" style="border:none;"/>
+				</a>
+			</div>
+			
+			<div id="banner">
+				<img src="Images/Banner.png" alt="Banner"/>
+			</div>
+			
+		</header>
+		
+		<section>
+			<nav>
+            	<a href="home.html">Home</a><br>
+            	<a href="about_us.html">About Us</a><br>
+            	<a href="tributes.html">Tributes</a><br>
+            	<a href="survey.html">Survey</a><br>
+            	<a href="favorites.html">Favorites</a><br>
+       		</nav>
+			<!-- InstanceBeginEditable name="PageContent" -->
+			<article>
+			  <h2>Welcome to Rent A Pet!</h2>
+			  <p>If you love to interact with pets like we do, you should enjoy looking around this site.
+			    Take a look at our Pet Profiles and take the opportunity to complete our survey</p>
+			  <div id="thumbnails"> <img src="Images/thumbnails/image1sm.jpg" alt="Kid on Pig" onmouseover="swapImage(0);"/> <img src="Images/thumbnails/image2sm.jpg" alt="German Shepherd" onmouseover="swapImage(1);"/> <img src="Images/thumbnails/image3sm.jpg" alt="Woman riding Horse" onmouseover="swapImage(2);"/> <img src="Images/thumbnails/image4sm.jpg" alt="Hound" onmouseover="swapImage(3);"/> </div>
+			  <img id="theImage" src="Images/fullsize/image1Lg.jpg" alt="Kid on Pig" />
+			  <h3 id="bottomText"> Boy sitting on Pig</h3>
+			  <img class="imageright" src="Images/Tributes/BassetHoundSM.jpg" alt="Bassest Hound"/>
+			  <h4>What our Satisfied Customer have been Saying:</h4>
+			  <h4>My name is Bessie Anderson and I currently live in a retirement community that has a prohibition on pets.  
+			    I really wanted to have a small dog that I could take out for walks, but I though it was not...<br>
+			    <a href="tributes.html">More...</a> </h4>
+		    </article>
+			<!-- InstanceEndEditable --></section>
+		
+		<footer>
+          <h3>This web site has been created solely for educational purposes.</h3>
+			<a href="mailto:10983529@uvu.edu">10983529@uvu.edu</a>
+			
+        </footer>
+	</div>
+</body>
+<!-- InstanceEnd --></html>

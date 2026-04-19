@@ -1,0 +1,199 @@
+/* CSS Document */
+
+body {
+	background-color: #CCE7F4;
+	color: #155700;
+	font-family: Arial, Georgia, serif;
+	font-size: 100%;
+	line-height: 150%;
+	margin: 20px;
+}
+
+.imageleft{
+	float: left;
+	margin-right: 20px;
+}
+
+.imageright{
+	float: right;
+	margin: 20px;
+}
+ 
+h1 {
+	color: #0E3701;
+	font-size: 2em;
+	padding: 10px;
+	text-align: center;
+}
+
+h2 {
+	color: #104300;
+	font-size: 1.6em;
+	padding: 10px;
+	text-align: center;
+}
+
+h3 {
+	color: #104300;
+	font-size: 1.3em;
+	padding: 10px;
+	text-align: center;
+}
+h4 {
+	color: #104300;
+	font-size: 1em;
+	padding: 10px;
+	text-align: center;
+}
+
+p {
+	font-size: 1em;
+	margin-bottom: 1em;
+	text-align: left;
+	padding: 15px;
+}
+
+blockquote {
+	font-style: italic;
+	color: #142600;
+	text-align: left;
+}
+
+ul {
+  	text-align: left;
+  	padding-left: 25px;
+  	margin: 0 auto 1em auto;
+}
+
+li {
+  	margin: 0;
+  	padding: 0;
+}
+
+
+a:link {
+	color: #481FFF;
+}
+
+a:visited {
+	color: #250095;
+}
+
+a:hover {
+	color: #228E00;
+}
+
+#container {
+    width: 894px;
+    margin: 0 auto; 
+}
+
+header {
+    width: 894px;
+    height: 164px;
+    background-color: #A8E6A3;
+	box-sizing: border-box;
+	overflow: hidden;
+	border: solid 3px;
+	text-align: center;
+}
+
+#logo {
+    float: left;
+    padding-left: 50px;
+    padding-top: 20px;
+	padding-right: 20px;
+}
+
+#banner {             
+    text-align: center;
+	padding-top: 2px;
+}
+
+nav {
+    float: left;
+    width: 295px;
+	height: auto;
+	line-height: 250%;
+    text-decoration: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+nav a {
+	background-color: #A8E6A3;
+	text-decoration: none;
+	color: #000000;
+	font-size: 30px;
+	font-weight: bold;
+	border: 4px solid #35B3CD;
+	
+}
+
+section {
+    width: 888px;
+	border: 3px solid;
+	background-image: url("images/2colback.jpg");
+    background-repeat: repeat-y;
+	display: flex;
+
+}
+
+article {
+	width: 888px;
+	height: auto;
+	text-align: center;
+}
+
+img {
+	border: 2px solid;
+	text-align: center;
+}
+
+footer {
+	background-color: #A8E6A3;
+	text-align: center;
+	width: 888px;
+	border: 3px solid;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	color: #228E00;
+	font-size: 18px;
+}
+
+caption {
+	font-family: Georgia, Arial;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+	border: 2px solid #59743C;
+	border-radius: 12px;
+	background-color: #59743C;
+	color: #001E0E;
+}
+
+th {
+	background-color: #104300;
+	color: white;
+	padding: 12px;
+	text-align: center;
+	border: 2px solid #104300;
+}
+
+td {
+	background-color: #7CBC9A;
+	color: #142935;
+	font-weight: bold;
+	border: 2px solid ;
+	padding: 10px;
+	text-align: center;
+}
+
+.map-container {
+  text-align: center;
